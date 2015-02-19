@@ -1,0 +1,66 @@
+/* General */
+body {
+	background:url("upfeathers.png");
+	background-color: #55ACEE;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+ul, li, h2 {
+	padding: 0;
+	margin: 0;
+}
+ul, li {
+	list-style-type: none;
+}
+.col-sm-6, .col-sm-4 {
+	padding: 0;
+}
+
+/* Headings */
+h1 {
+	text-align: center;
+	padding: 0;
+	margin: 5% 0 0 0;
+	line-height: 2em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+h1 i {
+	color: #55ACEE;
+}
+.title {
+	padding: 0.5em;
+	background-color: #55ACEE;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	color: white;
+	padding: 0.5em 1em;
+}
+
+/* Layout of tweets and tags */
+#tweets-wrapper, #tags-wrapper {
+	border: 1px solid #EEE;
+}
+#tweets, #tags {
+	background-color: white;
+	border-bottom: 3em solid #55ACEE;
+	height: 23em;
+	overflow: auto;
+}
+.tweet, .tag {
+	padding: 1em;
+}
+.tweet:nth-child(2n), .tag:nth-child(2n) {
+	background-color: #E8E8E8;
+}
+.tag {
+	font-weight: bold;
+	border-bottom: 1px solid #E8E8E8;
+}
+.truncate {
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
